@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+<script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyD4S0T3GEoDG94_GGwir8CYSsvT7f6g27E",
+  authDomain: "gestion-flota-fj.firebaseapp.com",
+  projectId: "gestion-flota-fj",
+  storageBucket: "gestion-flota-fj.firebasestorage.app",
+  messagingSenderId: "558211812868",
+  appId: "1:558211812868:web:8276ff458801951f6c2f51"
+};
+firebase.initializeApp(firebaseConfig);
+var db = firebase.firestore();
+</script>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
